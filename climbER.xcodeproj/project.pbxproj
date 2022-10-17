@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD28A24E28FD99FA007D02F9 /* climbERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A24D28FD99FA007D02F9 /* climbERApp.swift */; };
+		DD28A25028FD99FA007D02F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A24F28FD99FA007D02F9 /* ContentView.swift */; };
+		DD28A25228FD99FC007D02F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD28A25128FD99FC007D02F9 /* Assets.xcassets */; };
+		DD28A25528FD99FC007D02F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD28A25428FD99FC007D02F9 /* Preview Assets.xcassets */; };
+		DD28A25F28FD99FC007D02F9 /* climbERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A25E28FD99FC007D02F9 /* climbERTests.swift */; };
+		DD28A26928FD99FC007D02F9 /* climbERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A26828FD99FC007D02F9 /* climbERUITests.swift */; };
+		DD28A26B28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A26A28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD28A25B28FD99FC007D02F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD28A24228FD99F9007D02F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD28A24928FD99F9007D02F9;
+			remoteInfo = climbER;
+		};
+		DD28A26528FD99FC007D02F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD28A24228FD99F9007D02F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD28A24928FD99F9007D02F9;
+			remoteInfo = climbER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD28A24A28FD99FA007D02F9 /* climbER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = climbER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD28A24D28FD99FA007D02F9 /* climbERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbERApp.swift; sourceTree = "<group>"; };
+		DD28A24F28FD99FA007D02F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD28A25128FD99FC007D02F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD28A25428FD99FC007D02F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD28A25A28FD99FC007D02F9 /* climbERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = climbERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD28A25E28FD99FC007D02F9 /* climbERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbERTests.swift; sourceTree = "<group>"; };
+		DD28A26428FD99FC007D02F9 /* climbERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = climbERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD28A26828FD99FC007D02F9 /* climbERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbERUITests.swift; sourceTree = "<group>"; };
+		DD28A26A28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD28A24728FD99F9007D02F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD28A25728FD99FC007D02F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD28A26128FD99FC007D02F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD28A24128FD99F9007D02F9 = {
+			isa = PBXGroup;
+			children = (
+				DD28A24C28FD99FA007D02F9 /* climbER */,
+				DD28A25D28FD99FC007D02F9 /* climbERTests */,
+				DD28A26728FD99FC007D02F9 /* climbERUITests */,
+				DD28A24B28FD99FA007D02F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD28A24B28FD99FA007D02F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD28A24A28FD99FA007D02F9 /* climbER.app */,
+				DD28A25A28FD99FC007D02F9 /* climbERTests.xctest */,
+				DD28A26428FD99FC007D02F9 /* climbERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD28A24C28FD99FA007D02F9 /* climbER */ = {
+			isa = PBXGroup;
+			children = (
+				DD28A24D28FD99FA007D02F9 /* climbERApp.swift */,
+				DD28A24F28FD99FA007D02F9 /* ContentView.swift */,
+				DD28A25128FD99FC007D02F9 /* Assets.xcassets */,
+				DD28A25328FD99FC007D02F9 /* Preview Content */,
+			);
+			path = climbER;
+			sourceTree = "<group>";
+		};
+		DD28A25328FD99FC007D02F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD28A25428FD99FC007D02F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD28A25D28FD99FC007D02F9 /* climbERTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD28A25E28FD99FC007D02F9 /* climbERTests.swift */,
+			);
+			path = climbERTests;
+			sourceTree = "<group>";
+		};
+		DD28A26728FD99FC007D02F9 /* climbERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD28A26828FD99FC007D02F9 /* climbERUITests.swift */,
+				DD28A26A28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift */,
+			);
+			path = climbERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD28A24928FD99F9007D02F9 /* climbER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD28A26E28FD99FC007D02F9 /* Build configuration list for PBXNativeTarget "climbER" */;
+			buildPhases = (
+				DD28A24628FD99F9007D02F9 /* Sources */,
+				DD28A24728FD99F9007D02F9 /* Frameworks */,
+				DD28A24828FD99F9007D02F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = climbER;
+			productName = climbER;
+			productReference = DD28A24A28FD99FA007D02F9 /* climbER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD28A25928FD99FC007D02F9 /* climbERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD28A27128FD99FC007D02F9 /* Build configuration list for PBXNativeTarget "climbERTests" */;
+			buildPhases = (
+				DD28A25628FD99FC007D02F9 /* Sources */,
+				DD28A25728FD99FC007D02F9 /* Frameworks */,
+				DD28A25828FD99FC007D02F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD28A25C28FD99FC007D02F9 /* PBXTargetDependency */,
+			);
+			name = climbERTests;
+			productName = climbERTests;
+			productReference = DD28A25A28FD99FC007D02F9 /* climbERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD28A26328FD99FC007D02F9 /* climbERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD28A27428FD99FC007D02F9 /* Build configuration list for PBXNativeTarget "climbERUITests" */;
+			buildPhases = (
+				DD28A26028FD99FC007D02F9 /* Sources */,
+				DD28A26128FD99FC007D02F9 /* Frameworks */,
+				DD28A26228FD99FC007D02F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD28A26628FD99FC007D02F9 /* PBXTargetDependency */,
+			);
+			name = climbERUITests;
+			productName = climbERUITests;
+			productReference = DD28A26428FD99FC007D02F9 /* climbERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD28A24228FD99F9007D02F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DD28A24928FD99F9007D02F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DD28A25928FD99FC007D02F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DD28A24928FD99F9007D02F9;
+					};
+					DD28A26328FD99FC007D02F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DD28A24928FD99F9007D02F9;
+					};
+				};
+			};
+			buildConfigurationList = DD28A24528FD99F9007D02F9 /* Build configuration list for PBXProject "climbER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD28A24128FD99F9007D02F9;
+			productRefGroup = DD28A24B28FD99FA007D02F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD28A24928FD99F9007D02F9 /* climbER */,
+				DD28A25928FD99FC007D02F9 /* climbERTests */,
+				DD28A26328FD99FC007D02F9 /* climbERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD28A24828FD99F9007D02F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD28A25528FD99FC007D02F9 /* Preview Assets.xcassets in Resources */,
+				DD28A25228FD99FC007D02F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD28A25828FD99FC007D02F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD28A26228FD99FC007D02F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD28A24628FD99F9007D02F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD28A25028FD99FA007D02F9 /* ContentView.swift in Sources */,
+				DD28A24E28FD99FA007D02F9 /* climbERApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD28A25628FD99FC007D02F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD28A25F28FD99FC007D02F9 /* climbERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD28A26028FD99FC007D02F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD28A26928FD99FC007D02F9 /* climbERUITests.swift in Sources */,
+				DD28A26B28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD28A25C28FD99FC007D02F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD28A24928FD99F9007D02F9 /* climbER */;
+			targetProxy = DD28A25B28FD99FC007D02F9 /* PBXContainerItemProxy */;
+		};
+		DD28A26628FD99FC007D02F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD28A24928FD99F9007D02F9 /* climbER */;
+			targetProxy = DD28A26528FD99FC007D02F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD28A26C28FD99FC007D02F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD28A26D28FD99FC007D02F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD28A26F28FD99FC007D02F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"climbER/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yangyang.climbER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD28A27028FD99FC007D02F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"climbER/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yangyang.climbER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD28A27228FD99FC007D02F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yangyang.climbERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/climbER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/climbER";
+			};
+			name = Debug;
+		};
+		DD28A27328FD99FC007D02F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yangyang.climbERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/climbER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/climbER";
+			};
+			name = Release;
+		};
+		DD28A27528FD99FC007D02F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yangyang.climbERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = climbER;
+			};
+			name = Debug;
+		};
+		DD28A27628FD99FC007D02F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yangyang.climbERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = climbER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD28A24528FD99F9007D02F9 /* Build configuration list for PBXProject "climbER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD28A26C28FD99FC007D02F9 /* Debug */,
+				DD28A26D28FD99FC007D02F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD28A26E28FD99FC007D02F9 /* Build configuration list for PBXNativeTarget "climbER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD28A26F28FD99FC007D02F9 /* Debug */,
+				DD28A27028FD99FC007D02F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD28A27128FD99FC007D02F9 /* Build configuration list for PBXNativeTarget "climbERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD28A27228FD99FC007D02F9 /* Debug */,
+				DD28A27328FD99FC007D02F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD28A27428FD99FC007D02F9 /* Build configuration list for PBXNativeTarget "climbERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD28A27528FD99FC007D02F9 /* Debug */,
+				DD28A27628FD99FC007D02F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD28A24228FD99F9007D02F9 /* Project object */;
+}
