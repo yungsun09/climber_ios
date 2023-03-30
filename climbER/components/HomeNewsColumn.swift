@@ -6,37 +6,75 @@
 //
 
 import SwiftUI
+import Moya
+
+///
+class HomeNewsColumnModel: ObservableObject {
+    @Published var messageDataList: [HMessage] = []
+    let id: Int
+    init(id: Int) {
+        self.id = id
+        self.getNewsById(id: id)
+    }
+    
+    func getNewsById(id: Int) {
+        let provider = MoyaProvider<HomeMessageProvider>()
+//        var resultList: Array<HMessage> = []
+        provider.request(.getUserHomeMessageList(id: id)) { result in
+            switch result {
+               case let .success(response):
+                    do {
+                        let json = try response.map(HMessageDataList.self)
+//                        resultList = json.data
+                        self.messageDataList = json.data
+                        print("new")
+                    }
+                    catch {
+                        // show an error to your user
+                        print("error")
+                    }
+
+                   // do something in your app
+            case let .failure(error):
+                print(error)
+                   // TODO: handle the error == best. comment. ever.
+               }
+        }
+//        return resultList
+    }
+}
+///
+
 
 struct HomeNewsColumn: View {
     @Binding var listOffset: CGFloat
+    
+    let id: Int
+    @StateObject private var model: HomeNewsColumnModel
+    
+    init(listOffset: Binding<CGFloat>, id: Int) {
+        self.id = id
+        self._listOffset = listOffset
+        self._model = StateObject(wrappedValue: HomeNewsColumnModel(id: id))
+    }
+    
+    
+
     var body: some View {
-        
-//        ScrollView(.vertical, showsIndicators:  false) {
-//            HomeMessage()
-//            Divider().padding(.horizontal)
-//            HomeMessage()
-//            Divider().padding(.horizontal)
-//            HomeMessage()
-//            Divider().padding(.horizontal)
-//            HomeMessage()
-//            Divider().padding(.horizontal)
-//            HomeMessage()
-//            Divider().padding(.horizontal)
-//        }
         
         ScrollViewOffset { offset in
             listOffset = offset
         } content: {
-            HomeMessage()
-            Divider().padding(.horizontal)
-            HomeMessage()
-            Divider().padding(.horizontal)
-            HomeMessage()
-            Divider().padding(.horizontal)
-            HomeMessage()
-            Divider().padding(.horizontal)
-            HomeMessage()
-            Divider().padding(.horizontal)
+            LazyVStack (spacing: 0) {
+//                messageDataList.forEach{ m in
+//                    HomeMessage(data: m)
+//                    Divider().padding(.horizontal)
+//                }
+                ForEach(0..<model.messageDataList.count, id: \.self) { index in
+                    HomeMessage(data: model.messageDataList[index])
+                    Divider().padding(.horizontal)
+                }
+            }.padding(.zero)
           }
     }
         
@@ -45,7 +83,7 @@ struct HomeNewsColumn: View {
 
 struct HomeNewsColumn_Previews: PreviewProvider {
     static var previews: some View {
-        StatefulPreviewWrapper(0.0) { HomeNewsColumn(listOffset: $0) }
+        StatefulPreviewWrapper(0.0) { HomeNewsColumn(listOffset: $0, id: 1) }
 //        HomeNewsColumn()
     }
 }

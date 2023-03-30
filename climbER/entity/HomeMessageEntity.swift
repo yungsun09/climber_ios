@@ -50,14 +50,21 @@ import Foundation
 
 struct img: Codable
 {
-    let url: URL
+    let id: Int
+    let url: String
     let order: Int
 }
 
 struct HMessage: Codable
 {
-    let nickName:String
-    let createTime:Date
+    let id: Int
+    let avatarUrl: String
+    let nickName: String
+    let createTime: String
+    let text: String
     let imgList: Array<img>
 }
 
+struct HMessageDataList: Codable {
+    let data: [HMessage]
+}

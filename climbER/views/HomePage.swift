@@ -28,7 +28,7 @@ struct HomePage : View {
                     
                     HomeColumn(title: "热门线路")
                 } else {
-                    HomeNewsColumn(listOffset: $listOffset)
+                    HomeNewsColumn(listOffset: $listOffset, id: 1)
                 }
                 
                 Spacer(minLength: 0)

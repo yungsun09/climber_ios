@@ -22,9 +22,9 @@
 		DD30A16429D1C0CF004FB805 /* RouteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16329D1C0CF004FB805 /* RouteList.swift */; };
 		DD30A16729D1EE1E004FB805 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16629D1EE1E004FB805 /* Entity.swift */; };
 		DD30A16929D1EE4A004FB805 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16829D1EE49004FB805 /* UserEntity.swift */; };
-		DD30A16C29D1EEEB004FB805 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16B29D1EEEB004FB805 /* HttpRequest.swift */; };
-		DD30A16E29D2E6D2004FB805 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16D29D2E6D2004FB805 /* HttpClient.swift */; };
 		DD30A17029D2EE4A004FB805 /* HomeMessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16F29D2EE4A004FB805 /* HomeMessageEntity.swift */; };
+		DDECAE5729D5A8BF00E850CB /* HomeMessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECAE5629D5A8BF00E850CB /* HomeMessageProvider.swift */; };
+		E45E3B38ADDFBBAB3207F3F5 /* Pods_climbER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9EEF36CF1FEA407A5EAB7F /* Pods_climbER.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B9EEF36CF1FEA407A5EAB7F /* Pods_climbER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_climbER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A8844E87B32537D216F3FC /* Pods-climbER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-climbER.debug.xcconfig"; path = "Target Support Files/Pods-climbER/Pods-climbER.debug.xcconfig"; sourceTree = "<group>"; };
+		B5AC8D2764558BBCD0491F62 /* Pods-climbER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-climbER.release.xcconfig"; path = "Target Support Files/Pods-climbER/Pods-climbER.release.xcconfig"; sourceTree = "<group>"; };
 		DD28A24A28FD99FA007D02F9 /* climbER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = climbER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD28A24D28FD99FA007D02F9 /* climbERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbERApp.swift; sourceTree = "<group>"; };
 		DD28A24F28FD99FA007D02F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,9 +66,8 @@
 		DD30A16329D1C0CF004FB805 /* RouteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteList.swift; sourceTree = "<group>"; };
 		DD30A16629D1EE1E004FB805 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		DD30A16829D1EE49004FB805 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
-		DD30A16B29D1EEEB004FB805 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
-		DD30A16D29D2E6D2004FB805 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		DD30A16F29D2EE4A004FB805 /* HomeMessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMessageEntity.swift; sourceTree = "<group>"; };
+		DDECAE5629D5A8BF00E850CB /* HomeMessageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMessageProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45E3B38ADDFBBAB3207F3F5 /* Pods_climbER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F12899580C0E0397DCAFBAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A8844E87B32537D216F3FC /* Pods-climbER.debug.xcconfig */,
+				B5AC8D2764558BBCD0491F62 /* Pods-climbER.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B54F986428E6ACEBD2AD6D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B9EEF36CF1FEA407A5EAB7F /* Pods_climbER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD28A24128FD99F9007D02F9 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +120,8 @@
 				DD28A25D28FD99FC007D02F9 /* climbERTests */,
 				DD28A26728FD99FC007D02F9 /* climbERUITests */,
 				DD28A24B28FD99FA007D02F9 /* Products */,
+				2F12899580C0E0397DCAFBAD /* Pods */,
+				B54F986428E6ACEBD2AD6D02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +138,7 @@
 		DD28A24C28FD99FA007D02F9 /* climbER */ = {
 			isa = PBXGroup;
 			children = (
+				DDECAE5529D5A8A500E850CB /* provider */,
 				DD30A16A29D1EEE0004FB805 /* util */,
 				DD30A16529D1EDCD004FB805 /* entity */,
 				DD28A28028FEE4BB007D02F9 /* views */,
@@ -186,10 +209,16 @@
 		DD30A16A29D1EEE0004FB805 /* util */ = {
 			isa = PBXGroup;
 			children = (
-				DD30A16B29D1EEEB004FB805 /* HttpRequest.swift */,
-				DD30A16D29D2E6D2004FB805 /* HttpClient.swift */,
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		DDECAE5529D5A8A500E850CB /* provider */ = {
+			isa = PBXGroup;
+			children = (
+				DDECAE5629D5A8BF00E850CB /* HomeMessageProvider.swift */,
+			);
+			path = provider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD28A26E28FD99FC007D02F9 /* Build configuration list for PBXNativeTarget "climbER" */;
 			buildPhases = (
+				0B2F169584FCC39079C2BA68 /* [CP] Check Pods Manifest.lock */,
 				DD28A24628FD99F9007D02F9 /* Sources */,
 				DD28A24728FD99F9007D02F9 /* Frameworks */,
 				DD28A24828FD99F9007D02F9 /* Resources */,
+				79B13C90AA4337B876CA457C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,6 +348,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B2F169584FCC39079C2BA68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-climbER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B13C90AA4337B876CA457C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-climbER/Pods-climbER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-climbER/Pods-climbER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-climbER/Pods-climbER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD28A24628FD99F9007D02F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -331,9 +404,8 @@
 				DD28A27D28FDC271007D02F9 /* HomeNewsColumn.swift in Sources */,
 				DD30A16729D1EE1E004FB805 /* Entity.swift in Sources */,
 				DD30A16429D1C0CF004FB805 /* RouteList.swift in Sources */,
-				DD30A16C29D1EEEB004FB805 /* HttpRequest.swift in Sources */,
+				DDECAE5729D5A8BF00E850CB /* HomeMessageProvider.swift in Sources */,
 				DD28A27F28FDCC5B007D02F9 /* HomeMessage.swift in Sources */,
-				DD30A16E29D2E6D2004FB805 /* HttpClient.swift in Sources */,
 				DD28A27828FDA963007D02F9 /* HomeHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +559,7 @@
 		};
 		DD28A26F28FD99FC007D02F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A8844E87B32537D216F3FC /* Pods-climbER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -517,6 +590,7 @@
 		};
 		DD28A27028FD99FC007D02F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AC8D2764558BBCD0491F62 /* Pods-climbER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
