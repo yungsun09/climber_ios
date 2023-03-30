@@ -14,6 +14,17 @@
 		DD28A25F28FD99FC007D02F9 /* climbERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A25E28FD99FC007D02F9 /* climbERTests.swift */; };
 		DD28A26928FD99FC007D02F9 /* climbERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A26828FD99FC007D02F9 /* climbERUITests.swift */; };
 		DD28A26B28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A26A28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift */; };
+		DD28A27828FDA963007D02F9 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A27728FDA963007D02F9 /* HomeHeader.swift */; };
+		DD28A27A28FDABE6007D02F9 /* HomeColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A27928FDABE6007D02F9 /* HomeColumn.swift */; };
+		DD28A27D28FDC271007D02F9 /* HomeNewsColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A27C28FDC271007D02F9 /* HomeNewsColumn.swift */; };
+		DD28A27F28FDCC5B007D02F9 /* HomeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A27E28FDCC5B007D02F9 /* HomeMessage.swift */; };
+		DD28A28228FEE503007D02F9 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28A28128FEE503007D02F9 /* HomePage.swift */; };
+		DD30A16429D1C0CF004FB805 /* RouteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16329D1C0CF004FB805 /* RouteList.swift */; };
+		DD30A16729D1EE1E004FB805 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16629D1EE1E004FB805 /* Entity.swift */; };
+		DD30A16929D1EE4A004FB805 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16829D1EE49004FB805 /* UserEntity.swift */; };
+		DD30A16C29D1EEEB004FB805 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16B29D1EEEB004FB805 /* HttpRequest.swift */; };
+		DD30A16E29D2E6D2004FB805 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16D29D2E6D2004FB805 /* HttpClient.swift */; };
+		DD30A17029D2EE4A004FB805 /* HomeMessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16F29D2EE4A004FB805 /* HomeMessageEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		DD28A26428FD99FC007D02F9 /* climbERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = climbERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD28A26828FD99FC007D02F9 /* climbERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbERUITests.swift; sourceTree = "<group>"; };
 		DD28A26A28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD28A27728FDA963007D02F9 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		DD28A27928FDABE6007D02F9 /* HomeColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeColumn.swift; sourceTree = "<group>"; };
+		DD28A27C28FDC271007D02F9 /* HomeNewsColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNewsColumn.swift; sourceTree = "<group>"; };
+		DD28A27E28FDCC5B007D02F9 /* HomeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMessage.swift; sourceTree = "<group>"; };
+		DD28A28128FEE503007D02F9 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		DD30A16329D1C0CF004FB805 /* RouteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteList.swift; sourceTree = "<group>"; };
+		DD30A16629D1EE1E004FB805 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		DD30A16829D1EE49004FB805 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		DD30A16B29D1EEEB004FB805 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		DD30A16D29D2E6D2004FB805 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		DD30A16F29D2EE4A004FB805 /* HomeMessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMessageEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,10 @@
 		DD28A24C28FD99FA007D02F9 /* climbER */ = {
 			isa = PBXGroup;
 			children = (
+				DD30A16A29D1EEE0004FB805 /* util */,
+				DD30A16529D1EDCD004FB805 /* entity */,
+				DD28A28028FEE4BB007D02F9 /* views */,
+				DD28A27B28FDBC27007D02F9 /* components */,
 				DD28A24D28FD99FA007D02F9 /* climbERApp.swift */,
 				DD28A24F28FD99FA007D02F9 /* ContentView.swift */,
 				DD28A25128FD99FC007D02F9 /* Assets.xcassets */,
@@ -125,6 +151,45 @@
 				DD28A26A28FD99FC007D02F9 /* climbERUITestsLaunchTests.swift */,
 			);
 			path = climbERUITests;
+			sourceTree = "<group>";
+		};
+		DD28A27B28FDBC27007D02F9 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DD28A27928FDABE6007D02F9 /* HomeColumn.swift */,
+				DD28A27728FDA963007D02F9 /* HomeHeader.swift */,
+				DD28A27C28FDC271007D02F9 /* HomeNewsColumn.swift */,
+				DD28A27E28FDCC5B007D02F9 /* HomeMessage.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		DD28A28028FEE4BB007D02F9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DD28A28128FEE503007D02F9 /* HomePage.swift */,
+				DD30A16329D1C0CF004FB805 /* RouteList.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DD30A16529D1EDCD004FB805 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				DD30A16629D1EE1E004FB805 /* Entity.swift */,
+				DD30A16829D1EE49004FB805 /* UserEntity.swift */,
+				DD30A16F29D2EE4A004FB805 /* HomeMessageEntity.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		DD30A16A29D1EEE0004FB805 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				DD30A16B29D1EEEB004FB805 /* HttpRequest.swift */,
+				DD30A16D29D2E6D2004FB805 /* HttpClient.swift */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +323,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD28A25028FD99FA007D02F9 /* ContentView.swift in Sources */,
+				DD28A28228FEE503007D02F9 /* HomePage.swift in Sources */,
 				DD28A24E28FD99FA007D02F9 /* climbERApp.swift in Sources */,
+				DD30A16929D1EE4A004FB805 /* UserEntity.swift in Sources */,
+				DD28A27A28FDABE6007D02F9 /* HomeColumn.swift in Sources */,
+				DD30A17029D2EE4A004FB805 /* HomeMessageEntity.swift in Sources */,
+				DD28A27D28FDC271007D02F9 /* HomeNewsColumn.swift in Sources */,
+				DD30A16729D1EE1E004FB805 /* Entity.swift in Sources */,
+				DD30A16429D1C0CF004FB805 /* RouteList.swift in Sources */,
+				DD30A16C29D1EEEB004FB805 /* HttpRequest.swift in Sources */,
+				DD28A27F28FDCC5B007D02F9 /* HomeMessage.swift in Sources */,
+				DD30A16E29D2E6D2004FB805 /* HttpClient.swift in Sources */,
+				DD28A27828FDA963007D02F9 /* HomeHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"climbER/Preview Content\"";
+				DEVELOPMENT_TEAM = YL94ZT4ZP8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +501,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"climbER/Preview Content\"";
+				DEVELOPMENT_TEAM = YL94ZT4ZP8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,6 +531,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
