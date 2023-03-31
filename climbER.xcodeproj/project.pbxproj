@@ -23,6 +23,8 @@
 		DD30A16729D1EE1E004FB805 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16629D1EE1E004FB805 /* Entity.swift */; };
 		DD30A16929D1EE4A004FB805 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16829D1EE49004FB805 /* UserEntity.swift */; };
 		DD30A17029D2EE4A004FB805 /* HomeMessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30A16F29D2EE4A004FB805 /* HomeMessageEntity.swift */; };
+		DDB99AC029D70DB4005E5C6E /* dev.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB99ABF29D70DB4005E5C6E /* dev.swift */; };
+		DDB99AC229D718C0005E5C6E /* HomePage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB99AC129D718C0005E5C6E /* HomePage2.swift */; };
 		DDECAE5729D5A8BF00E850CB /* HomeMessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECAE5629D5A8BF00E850CB /* HomeMessageProvider.swift */; };
 		E45E3B38ADDFBBAB3207F3F5 /* Pods_climbER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9EEF36CF1FEA407A5EAB7F /* Pods_climbER.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +69,8 @@
 		DD30A16629D1EE1E004FB805 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		DD30A16829D1EE49004FB805 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		DD30A16F29D2EE4A004FB805 /* HomeMessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMessageEntity.swift; sourceTree = "<group>"; };
+		DDB99ABF29D70DB4005E5C6E /* dev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dev.swift; sourceTree = "<group>"; };
+		DDB99AC129D718C0005E5C6E /* HomePage2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage2.swift; sourceTree = "<group>"; };
 		DDECAE5629D5A8BF00E850CB /* HomeMessageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMessageProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +142,7 @@
 		DD28A24C28FD99FA007D02F9 /* climbER */ = {
 			isa = PBXGroup;
 			children = (
+				DDB99ABE29D70DA4005E5C6E /* config */,
 				DDECAE5529D5A8A500E850CB /* provider */,
 				DD30A16A29D1EEE0004FB805 /* util */,
 				DD30A16529D1EDCD004FB805 /* entity */,
@@ -191,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				DD28A28128FEE503007D02F9 /* HomePage.swift */,
+				DDB99AC129D718C0005E5C6E /* HomePage2.swift */,
 				DD30A16329D1C0CF004FB805 /* RouteList.swift */,
 			);
 			path = views;
@@ -211,6 +217,14 @@
 			children = (
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		DDB99ABE29D70DA4005E5C6E /* config */ = {
+			isa = PBXGroup;
+			children = (
+				DDB99ABF29D70DB4005E5C6E /* dev.swift */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 		DDECAE5529D5A8A500E850CB /* provider */ = {
@@ -395,9 +409,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB99AC029D70DB4005E5C6E /* dev.swift in Sources */,
 				DD28A25028FD99FA007D02F9 /* ContentView.swift in Sources */,
 				DD28A28228FEE503007D02F9 /* HomePage.swift in Sources */,
 				DD28A24E28FD99FA007D02F9 /* climbERApp.swift in Sources */,
+				DDB99AC229D718C0005E5C6E /* HomePage2.swift in Sources */,
 				DD30A16929D1EE4A004FB805 /* UserEntity.swift in Sources */,
 				DD28A27A28FDABE6007D02F9 /* HomeColumn.swift in Sources */,
 				DD30A17029D2EE4A004FB805 /* HomeMessageEntity.swift in Sources */,

@@ -20,15 +20,34 @@ struct HomePage : View {
                 
                 
                 if (isIndoor) {
-                    Divider()
-                        .padding()
-                    HomeColumn(title: "继续挑战")
-                    
-                    Divider().padding()
-                    
-                    HomeColumn(title: "热门线路")
+                    ScrollView  {
+                        Divider()
+                            .padding()
+                        HomeColumn(title: "继续挑战")
+                        
+                        Divider().padding()
+                        
+                        HomeColumn(title: "热门线路")
+                        
+                        Divider().padding()
+                        
+                        HomeColumn(title: "我的收藏")
+                    }
                 } else {
-                    HomeNewsColumn(listOffset: $listOffset, id: 1)
+                    
+                    TabView{
+                        HomeNewsColumn(listOffset: $listOffset, id: 1).tabItem {
+                                   Image(systemName: "arkit").foregroundColor(.red)
+                                   Text("场内")
+                               }
+                               
+                        HomeNewsColumn(listOffset: $listOffset, id: 1).tabItem {
+                                   Image(systemName: "star")
+                                   Text("关注")
+                               }
+                               
+                           }
+
                 }
                 
                 Spacer(minLength: 0)

@@ -13,7 +13,7 @@ enum HomeMessageProvider {
 }
 
 extension HomeMessageProvider: TargetType {
-    var baseURL: URL { return URL(string: "http://192.168.50.120:3001/v1")! }
+    var baseURL: URL { return URL(string: BASE_URL + "/v1")! }
     
     var path: String {
         switch self {

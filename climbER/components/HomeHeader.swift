@@ -36,7 +36,7 @@ struct HomeHeader: View {
                 Button(action: {
                     flag = !flag
                 }) {
-                    Text(!flag ? "场外" : "场内")
+                    Image(systemName: !flag ? "star" : "arkit")
                         .padding()
                     
                 }
